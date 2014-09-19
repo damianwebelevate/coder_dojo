@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bootstrap</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+  <link href="css/boot_styles.css" rel="stylesheet" type="text/css" />
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,800,300' rel='stylesheet' type='text/css'>
+</head>
+
+<body id="home">
+<!--logo and navigation section-->
+<!--******************************************************************
+*		                                                     *
+*			                  TOP                        *
+*                                                                    *
+**********************************************************************-->
+
+<section class="container">
+	<div class="row">
+		<header class="clearfix">
+			<div class="top_background_color col-md-12">
+				<div class="col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4">
+				<a href="index.html"><img src="img/logo.png" alt="coderdojo arklow" title="Home" /></a>
+				<h1>Arklow</h1>
+				<div class="clearfix"></div>
+				</div>
+			</div>
+		</header>
+</section>		
+				<!--options navbar-fixed-top navbar-inverse/fixed-bottom/navbar fixed-top-->
+<section class="container">
+	<div class="row">
+		<nav class="navbar-inverse" role="navigation">
+			<div class="navbar-header">
+          			<button id="mybutton" type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+					<span class="sr-only">Toggle navigation</span>
+		               		<span class="glyphicon glyphicon-list"></span>
+		        	</button>
+        		</div><!--close navbar-header-->
+	        		
+			<div id="navbarCollapse" class="collapse navbar-collapse navHeader Collapse">
+						<ul class="nav navbar-nav">
+							<li><a href="index.html" ><span class="menu" >Home</span></a></li>
+							<li><a href="fixed_layout.html" ><span class="menu" >Fixed Layout</span></a></li>
+							<li><a href="fluid_layout.html" ><span class="menu" >Fluid Layout</span></a></li>
+							<li><a href="bootstrap.html" ><span class="menu" >Bootstrap</span></a></li>
+						<!--dropdown-->
+							<li id="highlight" class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+							<span class="menu" >Dropdown</span><span class="caret"></span></a>
+								<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+									<li class="changeColor"><a href="#">One</a></li>
+									<li class="divider"></li>
+									<li class="changeColor"><a href="#">two</a></li>
+									<li class="changeColor"><a href="#">three</a></li>
+								</ul><!--Dropdown menu-->
+							</li>
+						</ul>
+			</div><!--close navbar collapse-->
+		</nav><!--close nav-->
+	</div>
+</section><!--close container-->
+
+<div class="clearfix" style="margin-bottom: 20px;"></div>
+
+<!--******************************************************************
+*	                                                             *
+*			                MIDDLE                       *
+*                                                                    *
+**********************************************************************-->
+
+<!--next time for some carousel and javascript-->
+
+<!--******************************************************************
+*							             *
+*			               MAIN BODY                     *
+*                                                                    *
+**********************************************************************-->
+
+<!--main body-->
+<section class="container">
+	<div class="row">
+		<div class="col-md-8 col-sm-8">
+			<article class="myArticle">
+				<h1>Twitter Bootstrap</h1>
+				<p>Is a responsive framework for use on the web</p>
+				<p>It uses a system of 12's so your web page is split into 12 columns (infinite number of rows)</p>
+				<p>For layouts the concept of fixed and fluid remain in the framework however the by 12 split is still present.</p>
+				<p>Using this framework has many benefits from custom components(slideshows/accordians/menus etc.</p>
+				<p>Easily create mark-up</p>
+				<p class="visible-sm hidden-xs" >Can hide/show content with a simple class declarations such as visible-sm and hidden-xs</p>
+			</article><!--close article-->
+		</div><!--close main-->
+		
+<!--******************************************************************
+*								     *
+*			                   ASIDE                     *
+*                                                                    *
+**********************************************************************-->
+
+	<div class="sidebar col col-md-4 col-sm-4">
+		<div class="myAside">
+			<div class="panel-group" id="accordion">
+				<div class="panel panel-justU visible-sm hidden-xs">
+    					<div class="panel-heading">
+      						<h4 class="panel-title">
+        						<a class="x" data-toggle="collapse" data-parent="#accordion" href="#openOnLoad">
+          						Open on Page Load
+        						</a>
+      						</h4>
+    					</div>
+    					<div id="openOnLoad" class="panel-collapse collapse in">
+      						<div class="panel-body">
+       							<p>This panel is open by default. Using this to my advantage at smaller screens I targeted one of the 							panels giving them the appropriate classes and 							display a video that is only seen at small screen level.
+							</p>
+      						</div>
+    					</div>
+  				</div><!--close panel-->
+							<!--visible on any device other than extra small-->
+  				<div class="panel panel-justU visible-sm hidden-xs">
+    					<div class="panel-heading">
+      						<h4 class="panel-title">
+        						<a class="x" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+          						Screen Shots
+        						</a>
+      						</h4>
+    					</div><!--close panel-heading-->
+    					<div id="collapseOne" class="panel-collapse collapse">
+      						<div class="panel-body">
+							<div id="carousel" class="carousel slide" style="border-top: 10px solid #green; border-bottom: 10px 								solid green;">
+											<!--little dots-->
+								<ol class="carousel-indicators">
+									<li data-target="#carousel" data-slide-to="0" class="active"></li>
+									<li data-target="#carousel" data-slide-to="1"></li>
+									<li data-target="#carousel" data-slide-to="2"></li>
+									<li data-target="#carousel" data-slide-to="3"></li>
+									<li data-target="#carousel" data-slide-to="4"></li>
+								</ol>
+								<div class="carousel-inner">
+									<div class="active item">
+									<img id="miniCarouselPortrait" src="#" alt="#"/>
+									</div>
+									<div class="item">
+									<img id="miniCarouselPortrait" src="#" alt=""/>
+									</div>
+									<div class="item">
+									<img id="miniCarouselPortrait" src="#" alt="#"/>
+									</div>
+									<div class="item">
+									<img id="miniCarouselPortrait" src="#" alt="#"/>
+									</div>
+									<div class="item">
+									<img class="miniCarouselLandscape" src="#" alt="#"/>
+									</div>
+								</div><!--close carousel-inner-->
+									<a href="#carousel" class="left carousel-control" data-slide="prev"><span 											class="glyphicon glyphicon-chevron-left"></span></a>
+									<a href="#carousel" class="right carousel-control" data-slide="next"><span 									class="glyphicon glyphicon-chevron-right"></span></a>
+							</div><!--close carousel-->
+		
+      						</div><!--panel body-->
+    					</div><!--collapseOne-->
+  				</div><!--close panel primary-->
+  									<!--only visible on extra small devices-->
+  <div class="panel panel-justU visible-xs hidden-sm hidden-md hidden-lg" >
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a class="x" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+          Promo Video
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse">
+      <div class="panel-body">
+	
+       <video width="100%" height="240" controls="1" loop="false">
+		  <source src="video/justu test video.mp4" type="video/mp4">
+		  Your browser does not support the video tag.
+	   </video>
+
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-justU">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a class="x" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+          Something Else
+        </a>
+      </h4>
+    </div>
+    <div id="collapseThree" class="panel-collapse collapse">
+      <div class="panel-body">
+        <p>A block holder for text.</p>
+		<p>Lorem ipsum etcetera</p>
+      </div>
+    </div>
+  </div><!--close panel-->
+</div><!--close accordian-->
+</section>
+</div><!--close row-->
+
+<div class="clearfix"></div>
+
+<!--******************************************************************
+*								     *
+*			                  FOOTER                     *
+*                                                                    *
+**********************************************************************-->
+
+<section class="container">
+	<div class="row">
+		<div class="footer col-md-12">
+			<div class="col-md-4">
+				<div class="footer_div">
+					<h3>First Division</h3>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="footer_div">
+					<h3>Second Division</h3>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="footer_div">
+					<h3>Third Division</h1>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/myscript.js"></script>
+
+</body>
+</html>

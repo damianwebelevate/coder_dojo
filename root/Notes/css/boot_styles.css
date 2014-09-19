@@ -1,0 +1,151 @@
+/*Overrides default bootstrap 3 css settings*/
+
+@import url(bootstrap.min.css);
+
+div.top_background_color{
+margin-top: 0px;
+padding: 20px;
+background-color: #000;
+margin-bottom: 20px;
+}
+
+
+.top_background_color h1{
+font-family: 'Arial';
+color: #fff;
+font-size: 3vw;
+border: none !important;
+padding: 0px 8px 0px 0px;
+margin: 0;
+text-align: right;
+}
+
+.top_background_color img{
+width: 100%;
+height: auto;
+}
+
+.navbar-inverse{
+background-color: green;
+margin-bottom: 20px;
+}
+
+.navbar-inverse a:hover{
+background-color: #000;
+}
+
+.navbar-nav li a{
+color: #fff !important;
+}
+
+.navbar-nav li a:hover{
+background-color: #001 !important;
+}
+
+.myArticle{
+	border: 1px solid #d3d3d3;
+	border-radius: 8px;
+	padding-left: 3%;
+	padding-right: 3%;
+	margin-bottom: 5%;
+	margin-top: 5%;
+	box-shadow: 6px 6px #d3d3d3;
+	text-align: justify;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-o-border-radius: 8px;
+	-ms-border-radius: 8px;
+	background-color: #DDE9EB;
+}
+
+.myAside{
+	border-radius: 8px;
+	margin-top: 10%;
+	box-shadow: 6px 12px #d3d3d3;
+	text-align: justify;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-o-border-radius: 8px;
+	-ms-border-radius: 8px;
+	font-family: inherit;
+	font-size: inherit;
+}
+
+/*for the mini carousel under the accordian for screen shots
+had to use an id which are found faster anyway as the css class only worked on the 
+Landscape class below, one of the quirks of bootstrap I guess
+*/
+
+#miniCarouselPortrait{
+	margin: 0 auto;
+	min-width: 100px;
+	min-height: 209px;
+}
+
+.miniCarouselLandscape{
+	margin: 0 auto;
+	min-width: 209px;
+	min-height: 209px;
+}
+
+
+/*accordian*/
+
+.panel-justU {
+  border-color: green;
+}
+
+.panel-justU > .panel-heading {
+  color: #fff;
+  background-color: green;
+  border-color: green;
+}
+
+.panel-justU > .panel-heading + .panel-collapse .panel-body {
+  border-top-color: green;
+}
+
+.panel-justU > .panel-footer + .panel-collapse .panel-body {
+  border-bottom-color: green;
+}
+
+.panel-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(70,190,173);
+}
+.panel-title > a.x {
+  color: #fff;
+}
+.panel-title> a.x:hover{
+	color: #000;
+	text-decoration: none;
+}
+
+
+div .footer{
+margin-top: 10%;
+background-color: green;
+padding: 1%;
+}
+
+.footer_div{
+	border-radius: 2px;
+	margin-top: 1%;
+	border: 1px solid #000;
+	text-align: justify;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-o-border-radius: 8px;
+	-ms-border-radius: 8px;
+	font-family: inherit;
+	font-size: inherit;
+	padding: 10px;
+	background-color: #BABFBF;
+}
+
+.footer_div h3{
+color: #000;
+}
