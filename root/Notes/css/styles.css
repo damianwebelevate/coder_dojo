@@ -1,0 +1,140 @@
+/*This is your css file to either write your own css rules/classes or in later lectures override default settings from other frameworks (eg Twtter Bootstrap)*/
+
+body{
+margin: 0;
+font-family: 'Arial';
+}
+
+div{
+border: 1px solid #000;
+}
+
+h1, h2, h3, h4, h5, h6{
+border: 1px solid #FAF207;
+}
+
+p, a, span{
+border: 1px solid #FAF207;
+}
+
+
+div.container{
+width: 960px;
+margin: 0 auto;
+}
+
+div.top_background_color{
+margin-top: 0px;
+padding: 20px;
+background-color: #000;
+margin-bottom: 20px;
+}
+
+div.logo_container{
+background-color: #000;
+margin-bottom: 2px;
+width: 373px;
+margin: 0 auto;
+}
+
+h1.logo_title{
+text-align: right;
+font-family: 'Arial';
+color: #fff;
+font-size: 3em;
+border: none !important;
+padding: 0px 8px 0px 0px;
+margin: 0;
+}
+
+div.logo_container img{
+float: left;
+width: 373px;
+height: 105px;
+margin: 0 auto;
+}
+
+div.logo_container a{
+border: none !important;
+}
+
+div.navigation{
+position: relative;
+background-color: green;
+}
+
+ul.top{
+list-style-type: none;
+margin: 0;
+padding: 0;
+background-color: green;
+}
+
+ul.top li{
+display: inline;
+float: left;
+margin: 10px;
+padding: 10px;
+background-color: green;
+}
+
+ul.top a{
+background-color: green;
+color: #fff;
+padding: 20px;
+margin-right: 10px;
+text-decoration: none;
+}
+
+ul.top a:hover{
+background-color: #001;
+}
+
+div.body{
+padding: 20px;
+background-color: #DDE9EB;
+text-align: justify;
+width: 580px;
+float: left;
+display: inline;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+div.right{
+padding: 20px;
+margin-top: 20px;
+background-color: #DDE9EB;
+text-align: justify;
+width: 280px;
+float:right;
+display: inline;
+margin-bottom: 20px;
+text-align: justify;
+margin-bottom: 20px;
+}
+
+div .footer{
+margin-top: 0px;
+background-color: green;
+padding-left: 1px;
+padding-right: 1px;
+}
+
+
+h3.heading3{
+color: #fff;
+padding: 20px;
+}
+
+
+div .footer1, .footer2, .footer3{
+float: left;
+left: 0;
+margin: 0px 0px 20px 11px;
+display: inline-block;
+width: 282px;
+padding: 10px;
+background: #BABFBF;
+border: 1px solid #424545;
+}

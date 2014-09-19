@@ -1,0 +1,132 @@
+<!--this is a html comment-->
+<!--delete as appropriate (you only need them for your own sanity and they may look messy but are handy especially if your page is large and you have links internally-->
+
+<!--doctype declaration-->
+<!DOCTYPE html>
+
+<!--opening tag-->
+<html>
+
+<!--opening tag-->
+<head>
+
+<!--In here you can put several resources necessary for running your web page see below for example-->
+
+<!--title-->
+<title>Home</title>
+
+<!--meta data (indexing on google)-->
+
+<meta charset="UTF-8">
+<meta name="A basic web page" content="Basic page for displaying content on the web">
+<meta name="keywords" content="HTML, CSS, PHP, whatever you want robots to detect">
+<meta name="author" content="your name here">
+
+<!--linking to resources-->
+<!--css (note if you are importing a stylesheet and want to override basic settigs then put the external resource first and follow it with your own css file) example:-->
+
+<link rel="stylesheet" type="text/css" href="http://some_web_based_link" />
+<link rel="stylesheet" type="text/css" href="css/styles.css"/>
+
+<!--javascript-->
+<script type="text/javascript" src="js/script.js">/*your function here*/</script>
+
+<!--note this loads at the same time as the web page. If you want to ensure that the DOM is ready place your script tags at the bottom of the page before the closing (</body>) tag.  Follows the same rules as css there is precidence/order to scripts-->
+
+</head><!--closing tag-->
+
+<!--opening tag-->
+<body>
+<!--this is the main content for your web page.  This area is what actually gets rendered by a browser.  Remember all html is, is text-->
+
+<div class="container">
+
+<div class="top_background_color">
+<div class="logo_container">
+
+<a href="index.html"><img src="img/logo.png" alt="coderdojo arklow" title="Home" /></a>
+
+<h1 class="logo_title"  >Arklow</h1>
+
+<div style="clear: both"></div>
+</div>
+</div>
+
+
+<div class="navigation">
+<ul class="top">
+<li><a href="index.html" tabindex="1">Home</a></li>
+<li><a href="fixed_layout.html" tabindex="2">Fixed Layout</a></li>
+<li><a href="fluid_layout.html" tabindex="3">Elastic Layout</a></li>
+<li><a href="index.html" tabindex="4">Bootstrap 3</a></li>
+</ul>
+<div style="clear: both"></div>
+</div>
+
+
+<div class="body">
+<h1>Web page layouts using divs</h1>
+<h2>Fixed Layout</h2>
+
+<p>A sample web page and structure for your own study</p>
+<p>CSS elements are based on the box model.  To see this model in action have a look at the lines around each element on this page.</p>
+<p>The black lines represent the div's and the yellow represent the headings/links/paragraphs</p>
+<p>The gaps inbetween are either the attribute padding or margin.  These attributes are used to provide spacing</p>
+
+<p>For a fixed layout to work you style your page as follows:</p>
+<p>In your html page create a div with a class of container</p>
+<pre>
+&#60;div class&#61;"container"&#62;&#60;&#47;div&#62;
+</pre>
+<p>In your css file:</p>
+<pre>.container {
+  width: 960px;
+  margin: 0 auto;
+}</pre>
+<p>The margin attribute centers the container on the page.</p>
+<p>The layout you choose can be calculated easily and ensures a rigid and exact design for the web page</p>
+<p>Designer has complete control over the layout</p>
+<p><em><i>Major disadvantage....browsing on a device with a smaller screen resolution makes for a poor user experience.</i></em></p>
+<p>Minimise your browser window and see what What happens to this layout at smaller screen sizes</p>
+
+
+</div>
+<!--close div class=body-->
+
+<div class="right"><h1>Extra Notes: </h1>
+
+<h2>This page uses tabindex</h2>
+
+<p>Tabindex allows screen readers to use the tab key on the keyboard to navigate through the page.  Many web developers are lazy when it comes to this but for accessability and navigation please use where appropriate especially on menus and links. If you look below the tabindex in the next three links is 7,6,5.  The links can be accessed via the ordering you set them.  Try this yourself and see.  Load the web page and use the tab key</p>
+
+<p><a href="http://www.google.com" title="A Basic link" alt="The alt tag is for screen readers and can have information for screen readers in them.  Please use alt tags on all links and images for descriptions" tabindex="7" >A Basic link (tabindex 7)</a></p>
+
+<p><a href="http://www.google.com" title="A Basic link" alt="The alt tag is for screen readers and can have information for screen readers in them.  Please use alt tags on all links and images for descriptions" tabindex="6" >A Basic link (tabindex 6)</a></p>
+
+<p><a href="http://www.google.com" title="A Basic link" alt="The alt tag is for screen readers and can have information for screen readers in them.  Please use alt tags on all links and images for descriptions" tabindex="5" target="_blank" >A Basic link (tabindex 5) target="_blank"</a></p>
+
+<p>Some further notes on links.  Target is the attribute to set where the link opens.  Some argue that this action should be left for the user to decide.  But often you do not wish for a visiter to leave your web page so.... havig a target set to _blank target="_blank" (will open a new tab in the browserby default the target attribute is set to _self i.e it opens in the current window.)</p><p>The title attribute is a small box that appears under the link when a user hovers over the link.  Try it above</p>
+</div><!--close sidebar-->
+
+<div style="clear: both"></div>
+
+<div class="footer">
+<h3 class="heading3">Footer</h3>
+<div class="footer1">Useful Links
+<ol>
+<li>Html Hex color picker <a href="http://www.colorpicker.com/">Hex Code Picker</a></li>
+<li>Courses and info on HTML CSS PHP JavaScript etc <a href="http://www.w3schools.com/">w3schools</a></li>
+<li>Article on Layouts from Smashing Magazine <a href="http://www.smashingmagazine.com/2009/06/02/fixed-vs-fluid-vs-elastic-layout-whats-the-right-one-for-you/">Fxed vs fluid vs Elastic</a></li>
+<li>Google EVERYTHING <a href="http://www.google.com">GOOGLE</a></li>
+</ol>
+<sub>Note we will reference other materials as we go on</sub>
+</div>
+<div class="footer2">Second Division</div>
+<div class="footer3">Third Division</div>
+<div style="clear: both;"></div>
+</div>
+</div><!--close footer-->
+</div><!--close container-->
+
+</body><!--closing tag-->
+</html><!--closing tag-->

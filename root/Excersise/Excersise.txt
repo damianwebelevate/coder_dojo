@@ -1,0 +1,25 @@
+open the index.html page in your browser AND in any text editor.
+Follow instructions below:
+
+Task 1)
+
+Link to the styles.css file in the css folder.
+
+Task 2)
+
+Link to the script.js file in the js folder.
+
+Task 3)
+
+Link all the menus on the page.
+
+Task 4)
+
+Include an image file found in the img folder.
+
+Task 5) 
+
+Create/change the colors on the page (Any colors)
+
+
+

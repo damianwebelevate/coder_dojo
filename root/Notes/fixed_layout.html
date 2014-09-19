@@ -1,0 +1,85 @@
+<!--this is a html comment-->
+<!--delete comments as appropriate (you only need them for your own sanity and they may look messy but are handy especially if your page is large and you have links internally-->
+
+<!--doctype declaration-->
+<!DOCTYPE html>
+
+<!--opening tag-->
+<html>
+
+<!--opening tag-->
+<head>
+
+<!--In here you can put several resources necessary for running your web page see below for example-->
+
+<!--title-->
+<title>Fixed Layout</title>
+
+<!--meta data (indexing on google)-->
+
+<meta charset="UTF-8">
+<meta name="A basic web page" content="Basic page for displaying content on the web">
+<meta name="keywords" content="HTML, CSS, PHP, whatever you want robots to detect">
+<meta name="author" content="your name here">
+
+<!--linking to resources-->
+<!--css (note if you are importing a stylesheet and want to override basic settigs then put the external resource first and follow it with your own css file) example:-->
+
+<link rel="stylesheet" type="text/css" href="http://some_web_based_link" />
+<link rel="stylesheet" type="text/css" href="css/styles.css"/>
+
+<!--javascript-->
+<script type="text/javascript" src="js/script.js">/*your function here*/</script>
+
+<!--note this loads at the same time as the web page. If you want to ensure that the DOM is ready place your script tags at the bottom of the page before the closing (</body>) tag.  Follows the same rules as css there is precidence/order to scripts-->
+
+</head><!--closing tag-->
+
+<!--opening tag-->
+<body>
+<!--this is the main content for your web page.  This area is what actually gets rendered by a browser.  Remember all html is, is text-->
+
+<div class="container">
+<div class="top_background_color">
+<div class="logo_container">
+
+<a href="../Notes/index.html"><img src="img/logo.png" alt="coderdojo arklow" title="Home" /></a>
+
+<h1 class="logo_title"  >Arklow</h1>
+
+<div style="clear: both"></div>
+</div>
+</div>
+
+<div class="navigation">
+<ul class="top">
+<li><a href="index.html" tabindex="1">Home</a></li>
+<li><a href="fixed_layout.html" tabindex="2">Fixed Layout</a></li>
+<li><a href="fluid_layout.html" tabindex="3">Fluid Layout</a></li>
+<li><a href="index.html" tabindex="4">Bootstrap 3</a></li>
+</ul>
+<div style="clear: both"></div>
+</div>
+
+
+<div class="body">
+</div>
+<!--close div class=body-->
+
+<div class="right">
+</div><!--close sidebar-->
+
+<div style="clear: both"></div>
+
+<div class="footer">
+<h3 class="heading3">Footer</h3>
+<div class="footer1">First Division</div>
+<div class="footer2">Second Division</div>
+<div class="footer3">Third Division</div>
+<div style="clear: both;"></div>
+</div>
+</div><!--close footer-->
+</div><!--close container-->
+
+</body><!--closing tag-->
+</html><!--closing tag-->
