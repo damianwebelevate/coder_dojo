@@ -18,10 +18,22 @@ border: 1px solid #FAF207;
 }
 
 
+html, body{
+padding: 0px;
+margin: 0px;
+border-collapse: collapse;
+}
+
+div.logo_container img{
+border: 0px;
+}
+
+
 div.container{
-width: 960px;
-height: auto;
+width: 90%;
 margin: 0 auto;
+display: block;
+position: relative;
 }
 
 div.top_background_color{
@@ -34,10 +46,10 @@ margin-bottom: 20px;
 div.logo_container{
 background-color: #000;
 margin-bottom: 2px;
-width: 373px;
+width: 33.33333%;
 margin: 0 auto;
-border: 0;
 }
+
 
 h1.logo_title{
 text-align: right;
@@ -50,9 +62,8 @@ margin: 0;
 }
 
 div.logo_container img{
-float: left;
-width: 373px;
-height: 105px;
+width: 100%;
+height: 100%;
 margin: 0 auto;
 }
 
@@ -72,13 +83,14 @@ padding: 0;
 background-color: green;
 }
 
-ul.top li{
+ul.top li a{
 display: inline;
 float: left;
-margin: 10px;
+margin: 0 20px;
 padding: 10px;
 background-color: green;
 }
+
 
 ul.top a{
 background-color: green;
@@ -96,7 +108,7 @@ div.body{
 padding: 20px;
 background-color: #DDE9EB;
 text-align: justify;
-width: 580px;
+width: 60%;
 float: left;
 display: inline;
 margin-top: 20px;
@@ -108,7 +120,7 @@ padding: 20px;
 margin-top: 20px;
 background-color: #DDE9EB;
 text-align: justify;
-width: 280px;
+width: 30%;
 float:right;
 display: inline;
 margin-bottom: 20px;
@@ -135,8 +147,43 @@ float: left;
 left: 0;
 margin: 0px 0px 20px 11px;
 display: inline-block;
-width: 282px;
+width: 30%;
 padding: 10px;
 background: #BABFBF;
 border: 1px solid #424545;
 }
+
+/*for all devices under 950px*/
+@media screen and (max-width: 950px){.container{
+width: 100% !important;
+}}
+
+/*remove border from divs as upsets % measurements*/
+@media screen and (max-width: 950px){div{
+border: none;
+}}
+
+/*main content*/
+@media screen and (max-width: 950px){.body{
+width: 90% !important;
+}}
+
+/*right side bar now fills the screen */
+@media screen and (max-width: 950px){.right{
+width: 90% !important;
+}}
+
+@media screen and (max-width: 950px){.footer1, .footer2, .footer3{
+width: 90% !important;
+}}
+
+@media screen and (max-width: 950px){ul.top li{
+display: block !important;
+width: 100% !important;
+}}
+
+@media screen and (max-width: 950px){ul.top a{
+border: none !important;
+margin: 0px !important;
+padding: 10px !important;
+}}

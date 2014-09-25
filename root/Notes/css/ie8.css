@@ -18,10 +18,23 @@ border: 1px solid #FAF207;
 }
 
 
+html, body{
+width: 100%;
+padding: 0px;
+margin: 0px;
+}
+
+div.logo_container img{
+border: 0px;
+}
+
+
 div.container{
-width: 960px;
+width: 980px;
 height: auto;
 margin: 0 auto;
+display: block;
+position: relative;
 }
 
 div.top_background_color{

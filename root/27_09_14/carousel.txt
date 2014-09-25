@@ -1,0 +1,31 @@
+<!--carousel-->
+<div class="container">
+<div id="carousel" class="carousel slide" style="border-top: 10px solid #33847C; border-bottom: 10px solid #33847C;">
+<!--little dots-->
+	<ol class="carousel-indicators">
+		<li data-target="#carousel" data-slide-to="0" class="active"></li>
+		<li data-target="#carousel" data-slide-to="1"></li>
+		<li data-target="#carousel" data-slide-to="2"></li>
+		<li data-target="#carousel" data-slide-to="3"></li>
+		<li data-target="#carousel" data-slide-to="4"></li>
+		<li data-target="#carousel" data-slide-to="5"></li>
+		<li data-target="#carousel" data-slide-to="6"></li>
+		<li data-target="#carousel" data-slide-to="7"></li>
+	</ol>
+		<div class="carousel-inner">
+			<div class="active item"><img src="images/bear.jpg" alt="" /></div><!--close item1-->
+			<div class="item"><img src="images/cat.jpg" alt="" /></div><!--close item2-->
+			<div class="item"><img src="images/cheetah.jpg" alt="" /></div><!--close item3-->
+			<div class="item"><img src="images/deer.jpg" alt="" /></div><!--close item4-->
+			<div class="item"><img src="images/sheep.png" alt="" /></div><!--close item5-->
+			<div class="item"><img src="images/spider.jpg" alt="" /></div><!--close item6-->
+			<div class="item"><img src="images/wolf.jpg" alt="" /></div><!--close item7-->
+			<div class="item"><img src="images/wolverine.jpg" alt="" /></div><!--close item8-->
+			<!--carousel controls-->
+			</div><!--close carousel-inner-->
+			
+			<a href="#carousel" class="left carousel-control" data-slide="prev"><span id="left" class="glyphicon glyphicon-chevron-left"></span></a>
+			<a href="#carousel" class="right carousel-control" data-slide="next"><span id="right" class="glyphicon glyphicon-chevron-right"></span></a>
+		
+	</div><!--close carousel-->
+</div><!--close div-->

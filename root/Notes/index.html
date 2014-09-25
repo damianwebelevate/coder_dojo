@@ -22,11 +22,35 @@
 <meta name="keywords" content="HTML, CSS, PHP, whatever you want robots to detect">
 <meta name="author" content="your name here">
 
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+div.ifIE{
+	width: 980px;
+	background-color: #d3d3d3;
+}
+</style>
+
+
+<!--[if IE 8]>
+	<div class="container">
+	<div class="ifIE"><p>It appears that you are using a <em>very</em> old version of MS Internet Explorer (MSIE). If you seriously want to continue to use MSIE, at least <a href="http://www.microsoft.com/windows/internet-explorer/">upgrade</a> Or use a modern web browser: </p><ul><li>Mozilla Firefox</li><li>Google Chrome</li><li>Opera</li><li>Safari for Windows</li></ul></div></div><![endif]-->
+
+
+<!--[if IE 8]>
+<link rel="stylesheet" media="all" href="css/ie8.css" />
+<![endif]-->
+
 <!--linking to resources-->
 <!--css (note if you are importing a stylesheet and want to override basic settigs then put the external resource first and follow it with your own css file) example:-->
 
 <link rel="stylesheet" type="text/css" href="http://some_web_based_link" />
+
+<!--[if !(IE)]><!-->
 <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+<!--<![endif]-->
 
 <!--javascript-->
 <script type="text/javascript" src="js/script.js">/*your function here*/</script>

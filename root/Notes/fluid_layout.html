@@ -22,14 +22,22 @@
 <meta name="keywords" content="HTML, CSS, PHP, whatever you want robots to detect">
 <meta name="author" content="your name here">
 
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+
+<link rel="stylesheet" media="all" href="css/fluid_styles.css" />
+
+
 <!--linking to resources-->
 <!--css (note if you are importing a stylesheet and want to override basic settigs then put the external resource first and follow it with your own css file) example:-->
 
-<link rel="stylesheet" type="text/css" href="http://some_web_based_link" />
-<link rel="stylesheet" type="text/css" href="css/fluid_styles.css"/>
+<script src="js/jquery.js" type="text/javascript"></script>
+
 
 <!--javascript-->
-<script type="text/javascript" src="js/script.js">/*your function here*/</script>
 
 <!--note this loads at the same time as the web page. If you want to ensure that the DOM is ready place your script tags at the bottom of the page before the closing (</body>) tag.  Follows the same rules as css there is precidence/order to scripts-->
 
@@ -39,7 +47,7 @@
 <body>
 <!--this is the main content for your web page.  This area is what actually gets rendered by a browser.  Remember all html is, is text-->
 
-<div class="container">
+<div class="container" id="container">
 <div class="top_background_color">
 <div class="logo_container">
 
@@ -102,6 +110,8 @@
 </div>
 </div><!--close footer-->
 </div><!--close container-->
+
+<script src="js/respond.js" type="text/javascript"></script>
 
 </body><!--closing tag-->
 </html><!--closing tag-->
