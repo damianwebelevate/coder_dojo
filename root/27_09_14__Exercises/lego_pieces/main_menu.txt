@@ -1,0 +1,32 @@
+<div class="container">
+	<div class="row">
+		<div class="navbar-inverse" role="navigation">
+			<div class="navbar-header">
+          			<button id="mybutton" type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+					<span class="sr-only">Toggle navigation</span>
+		               		<span class="glyphicon glyphicon-list"></span>
+		        	</button>
+        	</div><!--close navbar-header-->
+	        		
+			<div id="navbarCollapse" class="collapse navbar-collapse navHeader Collapse">
+						<ul class="nav navbar-nav">
+							<li><a href="index.html" ><span class="menu" >Home</span></a></li>
+							<li><a href="fixed_layout.html" ><span class="menu" >Fixed Layout</span></a></li>
+							<li><a href="fluid_layout.html" ><span class="menu" >Fluid Layout</span></a></li>
+							<li><a href="bootstrap.html" ><span class="menu" >Bootstrap</span></a></li>
+						<!--dropdown-->
+							<li id="highlight" class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+							<span class="menu" >Dropdown</span><span class="caret"></span></a>
+								<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+									<li class="changeColor"><a href="#">One</a></li>
+									<li class="divider"></li>
+									<li class="changeColor"><a href="#">two</a></li>
+									<li class="changeColor"><a href="#">three</a></li>
+								</ul><!--Dropdown menu-->
+							</li>
+						</ul>
+			</div><!--close navbar collapse-->
+		</div><!--close nav-->
+	</div><!--close row>
+</div><!--close container-->

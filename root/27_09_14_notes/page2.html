@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Build Your Own Bootstrap</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+  <link href="css/boot_styles.css" rel="stylesheet" type="text/css" />
+ 
+</head>
+
+<body id="home">
+
+<div class="container">
+	<div class="row">
+		<header class="clearfix">
+			<div class="top_background_color col-md-12">
+				<div class="col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4">
+				<a href="index.html"><img src="img/logo.png" alt="coderdojo arklow" title="Home" /></a>
+				<h1>Arklow</h1>
+				<div class="clearfix"></div>
+				</div>
+			</div>
+		</header>
+</div><!--close container-->		
+
+<div class="container">
+	<div class="row">
+		<h1>Build your own Bootstrap 3.0 theme</h1>
+		<p>We are now going to build a page.</p>
+		<p>To start click and drag the 27_09_14__Exerises folder into the open sublime text window</p>
+		<p>You will now see the folder structure on the left plane of the window.</p>
+		<p>To add any file to this directory right click the folder and select new file</p>
+
+		<h2>Create a blank html file</h2>
+		<p>open the index.html file</p>
+		<p>Now we want to link to all of our resources.</p>
+		<h3>Start thinking that a web page is like a lego set as in you add the pieces you want to build with the functionality you need</h3>
+
+		<div class="jumbotron">
+			<h1>Excersise</h1>
+			<p>Link to all recources necessary for this build</p>
+			<h3>css folder: both bootstrap.min.css and boot_styles.css respectivly i.e your link to bootstrap.min.css should come first</h3>
+			<h3>js folder: both jquery.js and bootstrap.min.css respectivly i.e your src jquery.js should come first</h3><p><em><sub><strong>Please put the script tags in the body of the page.</strong></sub></em></p>
+		</div>
+		
+		<p>Once we are linked up we can put in the following inside the body of the html:</p>
+		<p>&#60;div class="container"&#62;</p>
+		<p>&#60;&#47;div&#62;&#60;!&#45;&#45;ALWAYS comment your closing elements&#45;&#45;&#62;</p>
+		<p>We will use this several times to "break-up" a page</p>
+		<p>So for now just make a comment above this "section" and call it sample</p>
+		<p>leave as much space as you like html doesn't read whitespace</p>
+		<p>Open the lego_pieces folder and open the header_and_logo_html.txt file</p>
+		<p>Copy its contents to your index page</p>
+		<p>Refresh your browser</p>
+		<p>Change the div class to container-fluid and row-fluid to see difference.</p>
+		<p>You can inspect the element at any stage to see the classes associated with your page</p>
+		<p>Have a look at the css/boot_styles.css file and see that there is an import statement</p>
+		<p>This allow's for the css in the bootstrap to be overridden, we will use this feature later</p>
+
+
+		<a href="index.html">page 1</a>
+		<a href="page3.html">page 3</a>
+
+
+
+
+
+
+
+
+		
+	</div><!--close row-->
+</div<!--close container-->
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/myscript.js"></script>
+
+</body>
+</html>

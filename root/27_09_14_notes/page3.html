@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Build Your Own Bootstrap</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+  <link href="css/boot_styles.css" rel="stylesheet" type="text/css" />
+ 
+</head>
+
+<body id="home">
+
+<div class="container">
+	<div class="row">
+		<div class="clearfix">
+			<div class="top_background_color col-md-12">
+				<div class="col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4">
+				<a href="index.html"><img src="img/logo.png" alt="coderdojo arklow" title="Home" /></a>
+				<h1>Arklow</h1>
+				<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+</div><!--close container-->		
+
+<div class="container">
+	<div class="row">
+		<h1>Most pages start with either a logo or a menu or both.</h1>
+		<p>Now we will implement our own menu</p>
+		<p>Open lego_pieces folder and edit main_menu.txt</p>
+		<p>Copy and place inside your index page after the logo section</p>
+		<p>Clearly comment and seperate for legibility</p>		
+	</div><!--close row-->
+</div><!--close container-->
+<div class="container">
+	<div class="row">
+		<div class="navbar-inverse" role="navigation">
+			<div class="navbar-header">
+          			<button id="mybutton" type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+					<span class="sr-only">Toggle navigation</span>
+		               		<span class="glyphicon glyphicon-list"></span>
+		        	</button>
+        	</div><!--close navbar-header-->
+
+        	<!--options navbar-fixed-top navbar-inverse/fixed-bottom/navbar fixed-top-->
+	        		
+			<div id="navbarCollapse" class="collapse navbar-collapse navHeader Collapse">
+						<ul class="nav navbar-nav">
+							<li><a href="index.html" ><span class="menu" >Page 1</span></a></li>
+							<li><a href="page2.html" ><span class="menu" >Page 2</span></a></li>
+							<li><a href="page3.html" ><span class="menu" >Page 3</span></a></li>
+							<li><a href="page4.html" ><span class="menu" >Page 4</span></a></li>
+						<!--dropdown-->
+							<li id="highlight" class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+							<span class="menu" >Dropdown</span><span class="caret"></span></a>
+								<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+									<li class="changeColor"><a href="#">One</a></li>
+									<li class="divider"></li>
+									<li class="changeColor"><a href="#">two</a></li>
+									<li class="changeColor"><a href="#">three</a></li>
+								</ul><!--Dropdown menu-->
+							</li>
+						</ul>
+			</div><!--close navbar collapse-->
+		</div><!--close nav-->
+	</div><!--close row>
+</div><!--close container-->
+
+
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/myscript.js"></script>
+
+</body>
+</html>
