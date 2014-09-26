@@ -1,4 +1,4 @@
-<div class="container">
+<section class="container">
 	<div class="row">
 		<div class="clearfix">
 			<div class="top_background_color col-md-12">
@@ -9,4 +9,4 @@
 				</div><!--close inner div with offset-->
 			</div><!--close top_background_color-->
 		</div><!--close row-->
-</div><!--close container-->	
+</section><!--close container-->	

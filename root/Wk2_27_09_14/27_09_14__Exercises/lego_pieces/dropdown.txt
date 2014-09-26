@@ -1,0 +1,7 @@
+//to make menus drop down automatically
+
+	$('ul.nav li.dropdown').hover(function() {
+		$('.dropdown-menu', this).fadeIn();
+	}, function() {
+		$('.dropdown-menu', this).fadeOut('fast');
+	});//on hover will open menu automatically fadeIn and fadeOut 'fast'

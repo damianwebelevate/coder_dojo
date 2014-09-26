@@ -24,3 +24,34 @@ text-align: right;
 width: 100%;
 height: auto;
 }
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img {
+	width: 100%;
+	height: auto;
+}
+
+.navbar-inverse {
+background-color: green;
+margin-bottom: 20px;
+}
+
+
+.navbar-inverse a:hover{
+background-color: #000;
+}
+
+.navbar-nav li a{
+color: #fff !important;
+}
+
+.navbar-nav li a:hover{
+background-color: #001 !important;
+}
+
+.active{
+	font-weight: bold;
+}
+
+.dropdown-menu{
+	background-color: green;
+}

@@ -25,10 +25,11 @@ width: 100%;
 height: auto;
 }
 
-.navbar-inverse{
+.navbar-inverse {
 background-color: green;
 margin-bottom: 20px;
 }
+
 
 .navbar-inverse a:hover{
 background-color: #000;
@@ -148,4 +149,19 @@ padding: 1%;
 
 .footer_div h3{
 color: #000;
+}
+
+
+.dropdown-menu{
+	background-color: green;
+}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img {
+	width: 100%;
+	height: auto;
+}
+
+
+.active{
+font-weight: bold;
 }
